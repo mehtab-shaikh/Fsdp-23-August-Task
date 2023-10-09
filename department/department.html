@@ -1,1 +1,220 @@
-<!-- mehtab -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Department</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for the department section -->
+    <link rel="stylesheet" href="departments.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <!-- Navbar (Bootstrap) -->
+        <nav class="navbar navbar-expand-lg fixed-top" style="border-radius:  0 0 30px 30px;">
+            <img src="./Images/logo.png" alt="college logo" class="img-fluid ms-5 cursor-pointer" width="130px"
+                title="Gurukul College of Defence and Civil Services">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold text-white" href="#">Departments <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" style="margin-top: 5%;">
+        <h2 class="text-center text-color">College Principal</h2>
+        <div class="row justify-content-center">
+            <!-- College Principal -->
+            <div class="col-md-4">
+                <div class="card professor-card border-none" style="height: 450px;">
+                    <img src="./Images/proffessor.webp" class="card-img-top img-fluid" alt="College Principal">
+                    <div class="card-body bg-light">
+                        <h5 class="card-title">Dr. Amitabh Bachchan</h5>
+                        <p class="card-text">Description of Dr. Amitabh Bachchan, College Principal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-center text-color mt-5"><u>Departments</u></h1>
+        <div class="row mt-5">
+            <!-- Mechanical Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="./Images/mechanical.jpg" class="card-img-top img-fluid" alt="Mechanical Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Mechanical Engineering</h5>
+                        <p class="card-text">Description of Mechanical Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Civil Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="./Images/civil.png" class="card-img-top img-fluid" alt="Civil Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Civil Engineering</h5>
+                        <p class="card-text">Description of Civil Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Electrical Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="./Images/electrical.jpg" class="card-img-top img-fluid" alt="Electrical Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Electrical Engineering</h5>
+                        <p class="card-text">Description of Electrical Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Computer Science and Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="./Images/computer-science.jpg" class="card-img-top img-fluid"
+                        alt="Computer Science and Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Computer Science and Engineering</h5>
+                        <p class="card-text">Description of Computer Science and Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chemical Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="./Images/chemical.jpg" class="card-img-top img-fluid" alt="Chemical Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Chemical Engineering</h5>
+                        <p class="card-text">Description of Chemical Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aerospace Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="./Images/aerospace.jpg" class="card-img-top img-fluid" alt="Aerospace Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Aerospace Engineering</h5>
+                        <p class="card-text">Description of Aerospace Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biomedical Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="Images/biomedical.jpeg" class="card-img-top img-fluid" alt="Biomedical Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Biomedical Engineering</h5>
+                        <p class="card-text">Description of Biomedical Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Environmental Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="Images/wnvironment.avif" class="card-img-top img-fluid" alt="Environmental Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Environmental Engineering</h5>
+                        <p class="card-text">Description of Environmental Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Industrial Engineering -->
+            <div class="col-md-4">
+                <div class="card department-card" style="height: 400px;">
+                    <img src="Images/industrial.avif" class="card-img-top img-fluid" alt="Industrial Engineering">
+                    <div class="card-body bg-light d-flex flex-column justify-content-between">
+                        <h5 class="card-title">Industrial Engineering</h5>
+                        <p class="card-text">Description of Industrial Engineering department.</p>
+                        <a href="#"
+                            class="btn custom-button text-center float-right d-flex align-items-center justify-content-center">
+                            Learn More
+                            <span class="material-symbols-outlined ml-2">start</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Link to Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
